@@ -7,7 +7,7 @@ import { animate, motion,useMotionTemplate, useMotionValue, ValueAnimationTransi
 const tabs = [
   {
     icon: "/assets/lottie/vroom.lottie",
-    title: "User-friendly dashboard",
+    title: "Guaranteed Scaling",
     isNew: false,
     backgroundPositionX: 0,
     backgroundPositionY: 0,
@@ -15,7 +15,7 @@ const tabs = [
   },
   {
     icon: "/assets/lottie/click.lottie",
-    title: "One-click optimization",
+    title: "Only Qualified Leads – No Fluff",
     isNew: false,
     backgroundPositionX: 98,
     backgroundPositionY: 100,
@@ -23,7 +23,7 @@ const tabs = [
   },
   {
     icon: "/assets/lottie/stars.lottie",
-    title: "Smart keyword generator",
+    title: "Sales Team Training Included",
     isNew: true,
     backgroundPositionX: 100,
     backgroundPositionY: 27,
@@ -122,10 +122,11 @@ export const Features = () => {
 
   return <section className="py-20 md:py-24">
     <div className="container">
-      <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">Elevate Your SEO Efforts</h2>
-      <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto tracking-tight text-center mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Explicabo ea ipsam id exercitationem, quod excepturi
-        qui aliquam quae laboriosam officiis illum. Ipsa, non.</p>
+      <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">WHY CHOOSE PRIMESCALER?</h2>
+      <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto tracking-tight text-center mt-5">Experience Guaranteed Scaling with Zero Risk. 
+      We focus exclusively on delivering qualified leads — no fluff, no time-wasters, 
+      just real opportunities ready to convert. Our service goes beyond just lead generation —
+       we equip your sales team with tailored training to close more deals effectively.</p>
       <div className="mt-10 flex flex-col lg:flex-row gap-3">
         {tabs.map((tab,tabIndex) => (
           <FeatureTab 

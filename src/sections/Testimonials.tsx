@@ -34,12 +34,10 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
-  return <section className="py-20 md:py-24">
+  return <section className="py-20 md:py-20">
     <div className="container">
       <h2 className="text-5xl md:text-6xl text-center tracking-tighter font-medium">Beyond Expectations</h2>
-      <p className="text-white/70 text-lg md:text-xl text-center mt-5 tracking-tight max-w-sm mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Esse eum voluptatum doloremque temporibus explicabo error,
-        officiis aperiam corporis, repellendus, ipsa illum atque fugit.</p>
+      <p className="text-white/70 text-lg md:text-xl text-center mt-5 tracking-tight max-w-sm mx-auto"></p>
       <div className="flex overflow-hidden mt-10 [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
         <motion.div 
         initial={{

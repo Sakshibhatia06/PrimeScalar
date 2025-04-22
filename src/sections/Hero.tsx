@@ -92,12 +92,10 @@ const sectionRef=useRef(null);
     {/* End Ring 3 */}
 
     <div className="container relative mt-16">
-      <h1 className="text-8xl md:text-[168px] md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">AI SEO</h1>
-      <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Quod numquam mollitia
-      </p>
+      <h1 className="text-8xl md:text-[100px] md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">WE SCALE TITANS</h1>
+      <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">Primescaler delivers 20x revenue growth with qualified leads, expert sales team training & guaranteed results.</p>
       <div className="flex justify-center mt-5">
-        <Button>Join Now</Button>
+        <Button>Book Your Free Strategy Call</Button>
       </div>
     </div>
 
