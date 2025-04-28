@@ -26,13 +26,13 @@ const CardContent = ({
 
 const AlternateLayoutPage = () => {
   return (
-    <div
+    <div id="case-studies"
       className="min-h-screen mt-28 text-white py-5 px-5 md:px-20"
     >
       <h3 className="text-4xl md:text-5xl font-medium text-center tracking-tighter">RESULTS & CASE STUDIES</h3>
       {/* Case Study 1 */}
       <Card className="mb-16 text-white">
-        <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-6">
+        <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-14">
           <div className="flex flex-col gap-4 max-w-xl">
             <div className="flex items-center gap-2 bg-purple-400 text-black px-4 py-2 rounded-full font-bold">
               <ArrowUpRight className="w-5 h-5" />
@@ -64,28 +64,24 @@ const AlternateLayoutPage = () => {
 
           {/* Glowing Chart Image */}
           <div className="relative">
-            <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl opacity-45 z-0" />
+            <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <Image
               src={VideoPortfolio}
               alt="Case Study 1"
-              width={400}
-              height={300}
-              className="rounded-xl shadow-lg relative z-10"
+              className="rounded-xl relative z-10"
             />
           </div>
         </CardContent>
       </Card>
       <Card className="mb-16 text-white">
-        <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-6">
+        <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-14">
            {/* Glowing Chart Image */}
            <div className="relative">
-            <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl opacity-45 z-0" />
+            <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <Image
               src={VideoPortfolio}
               alt="Case Study 1"
-              width={400}
-              height={300}
-              className="rounded-xl shadow-lg relative z-10"
+              className="rounded-xl relative z-10"
             />
           </div>
           <div className="flex flex-col gap-4 max-w-xl">
