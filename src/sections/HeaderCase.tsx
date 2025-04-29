@@ -96,7 +96,7 @@ export default function ContactHeader() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        Feel free to share your thoughts — let's build something great together!
+        Feel free to share your thoughts — let&#39;s build something great together!
       </motion.div>
 
       {/* Animated Heading */}
@@ -116,8 +116,8 @@ export default function ContactHeader() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1 }}
       >
-        We'd love to hear from you! Whether you have a question, need assistance, or are looking to collaborate on a new project, our team is here to help. 
-        Use the form below to send us your message, and we'll get back to you as soon as possible.
+        We&#39;d love to hear from you! Whether you have a question, need assistance, or are looking to collaborate on a new project, our team is here to help. 
+        Use the form below to send us your message, and we&#39;ll get back to you as soon as possible.
       </motion.p>
     </div>
 </div>
