@@ -128,7 +128,7 @@ export default function ServicesSection() {
                         Generating leads is only half the battle. We work closely with your sales team to ensure they can turn leads into loyal customers.
                     </p>
 
-                    <h3 className="text-2xl font-semibold mb-4">What's included?</h3>
+                    <h3 className="text-2xl font-semibold mb-4">What&#39;s included?</h3>
                     <ul className="space-y-3 text-base md:text-lg">
                         {[
                             "Sales Team Training: Equip your sales team with the skills and knowledge to close deals effectively.",
@@ -160,7 +160,7 @@ export default function ServicesSection() {
                         We take a deep dive into your landing pages to ensure they’re optimized for conversions. Through data-driven design improvements, tracking, and testing.
                     </p>
 
-                    <h3 className="text-2xl font-semibold mb-4">What's included?</h3>
+                    <h3 className="text-2xl font-semibold mb-4">What&#39;s included?</h3>
                     <ul className="space-y-3 text-base md:text-lg">
                         {[
                             "Landing Page Design: Create high-converting landing pages optimized for user engagement.",
@@ -249,7 +249,7 @@ export default function ServicesSection() {
                         We understand the need for results. That’s why we offer a no-risk, 7-day performance trial. This allows you to test our strategies and see real-world results in just one week, without making a long-term commitment.
                     </p>
 
-                    <h3 className="text-2xl font-semibold mb-4">What's included?</h3>
+                    <h3 className="text-2xl font-semibold mb-4">What&#39;s included?</h3>
                     <ul className="space-y-3 text-base md:text-lg">
                         {[
                             "One-Week Trial: Launch a short, one-week campaign to demonstrate our capabilities.",
