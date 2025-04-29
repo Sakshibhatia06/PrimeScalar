@@ -97,13 +97,6 @@ const CaseStudy = () => {
                 </ul>
               </div>
             </div>
-
-            {/* Button */}
-            <div className="w-[150px]">
-              <Link href="/case-studies">
-                <Button>Read More</Button>
-              </Link>
-            </div>
           </div>
 
           {/* Slider 1 */}
