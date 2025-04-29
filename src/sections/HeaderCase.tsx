@@ -119,21 +119,6 @@ export default function ContactHeader() {
         We'd love to hear from you! Whether you have a question, need assistance, or are looking to collaborate on a new project, our team is here to help. 
         Use the form below to send us your message, and we'll get back to you as soon as possible.
       </motion.p>
-
-      {/* Animated Buttons */}
-      <motion.div
-        className="flex space-x-4"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.3 }}
-      >
-        <Button>
-          Contact Us →
-        </Button>
-        <button className="bg-white text-black px-6 py-3 rounded-xl font-medium">
-          See Plans
-        </button>
-      </motion.div>
     </div>
 </div>
 

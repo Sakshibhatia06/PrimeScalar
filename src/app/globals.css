@@ -5,3 +5,6 @@
 html{
     scroll-behavior: smooth;
 }
+#our-story{
+    --font-nunito-sans: "__Nunito_Sans_bd8383", "__Nunito_Sans_Fallback_bd8383";
+}

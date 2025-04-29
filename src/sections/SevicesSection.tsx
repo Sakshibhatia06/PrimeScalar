@@ -39,7 +39,7 @@ export default function ServicesSection() {
                         We specialize in creating highly focused, paid advertising campaigns that target your ideal customers with precision.
                     </p>
 
-                    <h3 className="text-2xl font-semibold mb-4">What's included?</h3>
+                    <h3 className="text-2xl font-semibold mb-4">What&#39;s included?</h3>
                     <ul className="space-y-3 text-base md:text-lg">
                         {[
                             "Targeted Paid Ads: Run highly focused ad campaigns designed to attract the right audience.",

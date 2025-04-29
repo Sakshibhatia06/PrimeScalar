@@ -39,7 +39,7 @@ export const Header = () => {
             </Link>
 
             <Link
-              href="#case-studies"
+              href="/case-studies"
               className={pathname === "/case-studies" ? "text-purple-500 transition" : "text-white/70 hover:text-white transition"}>
               CASE STUDIES
             </Link>
