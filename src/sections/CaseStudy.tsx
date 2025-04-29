@@ -107,7 +107,7 @@ const CaseStudy = () => {
           </div>
 
           {/* Slider 1 */}
-          <div className="relative w-[500px]">
+          <div className="relative w-[400px]">
             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <div className="flex flex-col items-center gap-2 relative z-10">
               <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -138,7 +138,7 @@ const CaseStudy = () => {
       <Card className="mb-16 text-white">
         <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-14">
           {/* Slider 2 */}
-          <div className="relative w-[500px]">
+          <div className="relative w-[400px]">
             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <div className="flex flex-col items-center gap-2 relative z-10">
               <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
