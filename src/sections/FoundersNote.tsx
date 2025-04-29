@@ -59,20 +59,20 @@ But because they lacked the right strategy, the right systems, and the right tea
 
             <p className="text-xl font-semibold text-purple-300">
             For me, this isn’t just business,
-"It’s personal."
+&quot;It’s personal.&quot;
 It’s a mission to redefine what growth should feel like:<br/>
 <strong>Predictable. Powerful. Performance-backed.</strong>
             </p>
 
             <p>
-              Whether you're doing <strong>6 figures</strong> or already past <strong>9 figures</strong>,
+              Whether you&apos;re doing <strong>6 figures</strong> or already past <strong>9 figures</strong>,
               if you’re hungry to scale, we’re here to build something massive with you.
             </p>
 
             <p className="font-bold text-white uppercase text-center font-serif tracking-widest">
-              "Let’s create impact.<br/>
+              &quot;Let’s create impact.<br/>
               Let’s create revenue.<br/>
-              Let’s create momentum that doesn’t stop."
+              Let’s create momentum that doesn’t stop.&quot;
             </p>
           </div>
 
