@@ -87,7 +87,7 @@ Our growth-oriented mentality drives everything we do. With a mindset rooted in 
           <div>
             <h3 className="text-2xl font-bold"> E — <span className="outline-text">EXCELLENCE</span></h3>
             <p className="text-gray-400 mt-2">
-Excellence is not a goal — it's our default. From ideation to execution, we obsess over the details to ensure every deliverable exceeds expectations and reflects the quality we’re known for.
+Excellence is not a goal — it&#39;s our default. From ideation to execution, we obsess over the details to ensure every deliverable exceeds expectations and reflects the quality we’re known for.
 
 
             </p>
