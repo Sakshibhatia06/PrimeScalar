@@ -104,7 +104,7 @@ const CaseStudy = () => {
     <div className="min-h-screen mt-28 text-white px-5 md:px-10">
       <div className="flex justify-center items-center mb-20">
                 <motion.div
-                    className="bg-white/10 max-w-fit text-center backdrop-blur-sm text-2xl md:text-4xl font-bold text-white px-6 py-2 rounded-full"
+                    className="bg-white/10 max-w-fit text-center backdrop-blur-sm text-2xl md:text-4xl font-bold text-purple-300 px-6 py-2 rounded-full"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}
