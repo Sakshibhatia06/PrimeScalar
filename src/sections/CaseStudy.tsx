@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import MedicalHealthCare1 from "@/assets/Medical&HealthCare (1).png";
@@ -17,6 +16,7 @@ import HairClinic1 from '@/assets/HairClinic (2).png';
 import Health from '@/assets/Medical&HealthCare (1).png';
 import Health1 from '@/assets/Medical&HealthCare (2).png';
 import clsx from "clsx";
+import { motion } from "framer-motion";
 
 // Card wrapper
 const Card = ({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
@@ -102,9 +102,9 @@ const CaseStudy = () => {
 
   return (
     <div className="min-h-screen mt-28 text-white px-5 md:px-10">
-      <div className="flex justify-center items-center mb-20">
+     <div className="flex justify-center items-center lg:mb-20 mb-5">
                 <motion.div
-                    className="bg-white/10 max-w-fit text-center backdrop-blur-sm text-2xl md:text-4xl font-bold text-purple-300 px-6 py-2 rounded-full"
+                    className="bg-white/10 max-w-fit text-center backdrop-blur-sm text-2xl md:text-4xl font-bold text-white px-6 py-2 rounded-full"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}
@@ -112,7 +112,6 @@ const CaseStudy = () => {
                     RESULTS & CASE STUDIES
                 </motion.div>
       </div>
-
 
       {/* Card 1 */}
       <Card className="mb-16 text-white">
@@ -134,7 +133,7 @@ const CaseStudy = () => {
             </div>
 
             {/* 3 Column Table */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-lg text-gray-200">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
               <div>
                 <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                 <ul className="space-y-1 list-disc list-outside">
@@ -157,7 +156,7 @@ const CaseStudy = () => {
           </div>
 
           {/* Slider 1 */}
-          <div className="relative w-[400px]">
+          <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <div className="flex flex-col items-center gap-2 relative z-10">
               <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -188,7 +187,7 @@ const CaseStudy = () => {
       <Card className="mb-16 text-white">
         <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-14">
           {/* Slider 2 */}
-          <div className="relative w-[400px]">
+          <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <div className="flex flex-col items-center gap-2 relative z-10">
               <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -231,7 +230,7 @@ const CaseStudy = () => {
             </div>
 
             {/* 3 Column Table */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-lg text-gray-200">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
               <div>
                 <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                 <ul className="space-y-1 list-disc list-outside">
@@ -297,7 +296,7 @@ const CaseStudy = () => {
           </div>
 
           {/* Slider 1 */}
-          <div className="relative w-[400px]">
+          <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <div className="flex flex-col items-center gap-2 relative z-10">
               <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -327,7 +326,7 @@ const CaseStudy = () => {
       <Card className="mb-16 text-white">
         <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-14">
           {/* Slider 4 */}
-          <div className="relative w-[400px]">
+          <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <div className="flex flex-col items-center gap-2 relative z-10">
               <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -370,7 +369,7 @@ const CaseStudy = () => {
             </div>
 
             {/* 3 Column Table */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-lg text-gray-200">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-lg text-gray-200">
               <div>
                 <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                 <ul className="space-y-1 list-disc list-outside">
@@ -413,7 +412,7 @@ const CaseStudy = () => {
             </div>
 
             {/* 3 Column Table */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-lg text-gray-200">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-lg text-gray-200">
               <div>
                 <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                 <ul className="space-y-1 list-disc list-outside">
@@ -435,7 +434,7 @@ const CaseStudy = () => {
             </div>
           </div>
           {/* Slider 5 */}
-          <div className="relative w-[400px]">
+          <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <div className="flex flex-col items-center gap-2 relative z-10">
               <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -465,7 +464,7 @@ const CaseStudy = () => {
       <Card className="mb-16 text-white">
         <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-14">
           {/* Slider 6 */}
-          <div className="relative w-[400px]">
+          <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
             <div className="flex flex-col items-center gap-2 relative z-10">
               <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -508,7 +507,7 @@ const CaseStudy = () => {
             </div>
 
             {/* 3 Column Table */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-lg text-gray-200">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-lg text-gray-200">
               <div>
                 <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                 <ul className="space-y-1 list-disc list-outside">
@@ -536,4 +535,5 @@ const CaseStudy = () => {
 };
 
 export default CaseStudy;
+
 
