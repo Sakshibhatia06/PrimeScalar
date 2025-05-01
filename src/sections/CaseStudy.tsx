@@ -197,7 +197,7 @@ const CaseStudy = () => {
               <Image
                 src={slides2[current2].image}
                 alt="Case Study Slide"
-                className="rounded-xl w-[400px] h-[400px] object-cover"
+                className="rounded-xl w-[400px] object-cover"
               />
               <div className="flex justify-center mt-4 space-x-2">
                 {slides2.map((_, index) => (
