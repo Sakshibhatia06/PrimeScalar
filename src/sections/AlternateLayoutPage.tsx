@@ -71,8 +71,8 @@ const AlternateLayoutPage = () => {
                 </ul>
               </div>
             </div>
-            <Link href='/case-studies' className="w-[190px] mt-8">
-              <Button>Join Now</Button>
+           <Link href='/case-studies' className="w-[190px] mt-5">
+              <Button>READ MORE</Button>
             </Link>
           </div>
 
@@ -135,8 +135,8 @@ const AlternateLayoutPage = () => {
                 </ul>
               </div>
             </div>
-            <Link href='/case-studies' className="w-[190px] mt-8">
-              <Button>Join Now</Button>
+            <Link href='/case-studies' className="w-[190px] mt-5">
+              <Button>READ MORE</Button>
             </Link>
           </div>
 
