@@ -5,7 +5,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Engine } from "tsparticles-engine";
 import { Button } from "@/components/Button";
-import Link from "next/link";
+import { Header } from "./Header";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
@@ -41,51 +41,7 @@ export default function HeaderService() {
       {/* Background with Purple Gradient Completion */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#0a021c] via-[#2f1048] to-[#1f0531] opacity-80"></div>
 
-      {/* Navbar */}
-      <nav className="relative z-10 flex justify-between items-center px-8 py-6">
-        <div className="flex items-center space-x-2">
-          <div className="bg-white p-2 rounded-full" />
-          <span className="text-lg font-semibold">PRIMESCALER</span>
-        </div>
-
-        <div className="hidden md:flex space-x-8 text-sm font-medium">
-        <nav className="flex gap-8 text-sm">
-            <Link
-              href="/"
-              className={pathname === "/" ? "text-purple-500 transition" : "text-white/70 hover:text-white transition"}>
-              HOME
-            </Link>
-
-            <Link
-              href="/about"
-              className={pathname === "/about" ? "text-purple-500 transition" : "text-white/70 hover:text-white transition"}>
-              ABOUT
-            </Link>
-
-            <Link
-              href="/services"
-              className={pathname === "/services" ? "text-purple-500 transition" : "text-white/70 hover:text-white transition"}>
-              SERVICES
-            </Link>
-
-            <Link
-              href="/case-studies"
-              className={pathname === "/case-studies" ? "text-purple-500 transition" : "text-white/70 hover:text-white transition"}>
-              CASE STUDIES
-            </Link>
-
-            <Link
-              href="/contact"
-              className={pathname === "/contact" ? "text-purple-500 transition" : "text-white/70 hover:text-white transition"}>
-              CONTACT US
-            </Link>
-          </nav>
-        </div>
-
-        <div>
-         <Button>GET IN TOUCH</Button>
-        </div>
-      </nav>
+      <Header></Header>
 
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-center justify-center flex-grow text-center px-4">
