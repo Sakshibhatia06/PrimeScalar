@@ -10,7 +10,7 @@ import MedicalHealthCare4 from "@/assets/Medical&HealthCare (4).png";
 import Dental1 from '@/assets/DentalService (1).png';
 import Dental from '@/assets/DentalCaseStudy.png';
 import Dental2 from '@/assets/DentalService.png';
-
+import VideoPortfolio from '@/assets/DrivingInstitute.png';
 import RealEstate from '@/assets/RealEstate (1).png';
 import RealEstate1 from '@/assets/RealEstate (2).png';
 import FoodCafe from '@/assets/Food&Cafes (1).png';
@@ -121,8 +121,8 @@ const CaseStudy = () => {
             </div>
 
             {/* Card 1 */}
-            <motion.div 
-            initial={{ opacity: 0, y: 50 }}
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}>
                 <Card className="mb-16 text-white">
@@ -162,10 +162,10 @@ const CaseStudy = () => {
                                 ))}
                             </motion.h2>
                             <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }} 
-                            className="flex flex-wrap gap-5 mb-2">
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Medical & Healthcare</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
@@ -174,10 +174,10 @@ const CaseStudy = () => {
 
                             {/* 3 Column Table */}
                             <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
-                            className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -296,9 +296,9 @@ const CaseStudy = () => {
                             </motion.h2>
 
                             <motion.div initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                 className="flex flex-wrap gap-5 mb-2">
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Dental Services</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
@@ -307,10 +307,10 @@ const CaseStudy = () => {
 
                             {/* 3 Column Table */}
                             <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
-                             className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -376,9 +376,9 @@ const CaseStudy = () => {
                                 ))}
                             </motion.h2>
                             <motion.div initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                 className="flex flex-wrap gap-5 mb-2">
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Real Estate</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
@@ -387,10 +387,10 @@ const CaseStudy = () => {
 
                             {/* 3 Column Table */}
                             <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
-                             className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -507,9 +507,9 @@ const CaseStudy = () => {
                                 ))}
                             </motion.h2>
                             <motion.div initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                 className="flex flex-wrap gap-5 mb-2">
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Food & Cafes</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
@@ -518,10 +518,10 @@ const CaseStudy = () => {
 
                             {/* 3 Column Table */}
                             <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
-                             className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -589,9 +589,9 @@ const CaseStudy = () => {
                             </motion.h2>
 
                             <motion.div initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                 className="flex flex-wrap gap-5 mb-2">
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Hair Clinic</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
@@ -600,10 +600,10 @@ const CaseStudy = () => {
 
                             {/* 3 Column Table */}
                             <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
-                             className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -652,13 +652,13 @@ const CaseStudy = () => {
                 </Card>
             </motion.div>
             {/* Card 6 */}
-             <motion.div 
-            initial={{ opacity: 0, y: 50 }}
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}>
                 <Card className="mb-16 text-white">
                     <CardContent className="flex flex-col lg:flex-row justify-between items-center">
-                    <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
+                        <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
                             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
                             <div className="flex flex-col items-center gap-2 relative z-10">
                                 <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -716,10 +716,10 @@ const CaseStudy = () => {
                                 ))}
                             </motion.h2>
                             <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }} 
-                            className="flex flex-wrap gap-5 mb-2">
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Health, Beauty & Fitness</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
@@ -728,10 +728,10 @@ const CaseStudy = () => {
 
                             {/* 3 Column Table */}
                             <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
-                            className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -755,12 +755,98 @@ const CaseStudy = () => {
                     </CardContent>
                 </Card>
             </motion.div>
-            
+            <motion.div initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}>
+                <Card className="mb-16 text-white">
+                    <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-14">
+                        <div className="flex flex-col gap-4 max-w-[650px]">
+                            {/* Header & Tags */}
+                            <div className="flex items-center gap-2 text-lg mb-6 bg-purple-400 text-black px-4 py-2 rounded-full font-bold">
+                                <ArrowUpRight className="w-5 h-5" />
+                                318K/MO TO 804K/MO IN 1 MONTHS
+                            </div>
+                            <motion.h2
+                                initial="hidden"
+                                whileInView="visible"
+                                variants={{
+                                    hidden: {},
+                                    visible: {
+                                        transition: {
+                                            staggerChildren: 0.04, // Adjust speed here
+                                        },
+                                    },
+                                }}
+                                className="text-4xl font-bold mb-5 flex flex-wrap"
+                            >
+                                {"318K/MONTH TO 804K/MONTH IN 1 MONTHS.".split("").map((char, index) => (
+                                    <motion.span
+                                        key={index}
+                                        variants={{
+                                            hidden: { opacity: 0, y: 20 },
+                                            visible: { opacity: 1, y: 0 },
+                                        }}
+                                        className={
+                                            char === " " ? "w-2" : char.match(/[804K MONTH]+/g) ? "text-purple-400" : ""
+                                        }
+                                    >
+                                        {char}
+                                    </motion.span>
+                                ))}
+                            </motion.h2>
+                            <motion.div    initial={{ opacity: 0, y: 50 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8 }}
+
+                             className="flex flex-wrap gap-5 mb-2">
+                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Emirate driving school</span>
+                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
+                            </motion.div>
+
+                            {/* 3 Column Table */}
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-lg text-gray-200">
+                                <div>
+                                    <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
+                                    <ul className="space-y-1 list-disc list-outside">
+                                        <li>Performance ad creative.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p className="font-semibold mb-2 text-purple-400">Expectations</p>
+                                    <ul className="space-y-1 list-disc list-outside">
+                                        <li>New improved Meta campaign</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p className="font-semibold mb-2 text-purple-400">Primescalar Results</p>
+                                    <ul className="space-y-1 list-disc list-outside">
+                                        <li>Weekly iterations on performance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="relative">
+                            <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
+                            <Image
+                                src={VideoPortfolio}
+                                alt="Case Study 1"
+                                className="rounded-xl relative z-10"
+                            />
+                        </div>
+
+                    </CardContent>
+                </Card>
+            </motion.div>
+
         </div>
+
     );
 };
 
 export default CaseStudy;
+
 
 
 
