@@ -5,16 +5,20 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import MedicalHealthCare1 from "@/assets/Medical&HealthCare (1).png";
 import MedicalHealthCare2 from "@/assets/Medical&HealthCare (2).png";
+import MedicalHealthCare3 from "@/assets/Medical&HealthCare (3).png";
+import MedicalHealthCare4 from "@/assets/Medical&HealthCare (4).png";
 import Dental1 from '@/assets/DentalService (1).png';
 import Dental from '@/assets/DentalCaseStudy.png';
+import Dental2 from '@/assets/DentalService.png';
+
 import RealEstate from '@/assets/RealEstate (1).png';
 import RealEstate1 from '@/assets/RealEstate (2).png';
-import DuTelecom from '@/assets/DuTelecom (1).png';
-import DuTelecom1 from '@/assets/DuTelecom (2).png';
+import FoodCafe from '@/assets/Food&Cafes (1).png';
+import FoodCafe1 from '@/assets/Food&Cafes (2).png';
 import HairClinic from '@/assets/HairClinic (1).png';
 import HairClinic1 from '@/assets/HairClinic (2).png';
-import Health from '@/assets/Medical&HealthCare (1).png';
-import Health1 from '@/assets/Medical&HealthCare (2).png';
+import Health1 from '@/assets/Beauty (2).png';
+import Health2 from '@/assets/Beauty (3).png';
 import clsx from "clsx";
 import { motion } from "framer-motion";
 
@@ -31,15 +35,24 @@ const CardContent = ({ className, ...props }: React.HTMLAttributes<HTMLDivElemen
 const CaseStudy = () => {
     // Slider 1
     const slides1 = [
+        { image: MedicalHealthCare3, label: "BEFORE RESULT" },
+        { image: MedicalHealthCare4, label: "AFTER RESULT" },
         { image: MedicalHealthCare2, label: "BEFORE RESULT" },
         { image: MedicalHealthCare1, label: "AFTER RESULT" },
     ];
     const [current1, setCurrent1] = useState(0);
 
+    const slides6 = [
+        { image: Health1, label: "BEFORE RESULT" },
+        { image: Health2, label: "AFTER RESULT" },
+    ];
+    const [current6, setCurrent6] = useState(0);
+
     // Slider 2
     const slides2 = [
         { image: Dental1, label: "BEFORE RESULT" },
         { image: Dental, label: "AFTER RESULT" },
+        { image: Dental2, label: "AFTER RESULT" },
     ];
     const [current2, setCurrent2] = useState(0);
 
@@ -51,8 +64,8 @@ const CaseStudy = () => {
     const [current3, setCurrent3] = useState(0);
 
     const slides4 = [
-        { image: DuTelecom1, label: "BEFORE RESULT" },
-        { image: DuTelecom, label: "AFTER RESULT" },
+        { image: FoodCafe1, label: "BEFORE RESULT" },
+        { image: FoodCafe, label: "AFTER RESULT" },
     ];
 
     const [current4, setCurrent4] = useState(0);
@@ -60,13 +73,7 @@ const CaseStudy = () => {
         { image: HairClinic1, label: "BEFORE RESULT" },
         { image: HairClinic, label: "AFTER RESULT" },
     ];
-
     const [current5, setCurrent5] = useState(0);
-    const slides6 = [
-        { image: Health1, label: "BEFORE RESULT" },
-        { image: Health, label: "AFTER RESULT" },
-    ];
-    const [current6, setCurrent6] = useState(0);
 
 
     // Autoplay intervals
@@ -159,7 +166,7 @@ const CaseStudy = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8 }} 
                             className="flex flex-wrap gap-5 mb-2">
-                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Automobile</span>
+                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Medical & Healthcare</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
@@ -292,7 +299,7 @@ const CaseStudy = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                  className="flex flex-wrap gap-5 mb-2">
-                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Automobile</span>
+                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Dental Services</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
@@ -372,7 +379,7 @@ const CaseStudy = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                  className="flex flex-wrap gap-5 mb-2">
-                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Automobile</span>
+                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Real Estate</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
@@ -503,7 +510,7 @@ const CaseStudy = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                  className="flex flex-wrap gap-5 mb-2">
-                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Automobile</span>
+                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Food & Cafes</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
@@ -585,7 +592,7 @@ const CaseStudy = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
                  className="flex flex-wrap gap-5 mb-2">
-                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Automobile</span>
+                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Hair Clinic</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
@@ -645,14 +652,13 @@ const CaseStudy = () => {
                 </Card>
             </motion.div>
             {/* Card 6 */}
-            <motion.div
-                initial={{ opacity: 0, y: 50 }}
+             <motion.div 
+            initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }} >
+                transition={{ duration: 0.8 }}>
                 <Card className="mb-16 text-white">
-                    <CardContent className="flex flex-col lg:flex-row justify-between items-center gap-14">
-                        {/* Slider 6 */}
-                        <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
+                    <CardContent className="flex flex-col lg:flex-row justify-between items-center">
+                    <div className="relative w-[400px] mt-10 lg:mt-3 px-5 lg:px-2">
                             <div className="absolute inset-0 rounded-xl bg-purple-800 blur-3xl z-0" />
                             <div className="flex flex-col items-center gap-2 relative z-10">
                                 <div className="text-black bg-purple-400 font-bold px-4 py-2 rounded-full mb-4">
@@ -675,8 +681,6 @@ const CaseStudy = () => {
                                 </div>
                             </div>
                         </div>
-
-                        {/* Right Column (same content as Card 1) */}
                         <div className="flex flex-col gap-4 max-w-[650px]">
                             {/* Header & Tags */}
                             <div className="flex items-center gap-2 text-lg mb-6 bg-purple-400 text-black px-4 py-2 rounded-full font-bold">
@@ -711,12 +715,12 @@ const CaseStudy = () => {
                                     </motion.span>
                                 ))}
                             </motion.h2>
-
-                            <motion.div initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                 className="flex flex-wrap gap-5 mb-2">
-                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Automobile</span>
+                            <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }} 
+                            className="flex flex-wrap gap-5 mb-2">
+                                <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Health, Beauty & Fitness</span>
                                 <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
                                 <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
@@ -727,7 +731,7 @@ const CaseStudy = () => {
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8 }}
-                             className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                            className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -751,11 +755,13 @@ const CaseStudy = () => {
                     </CardContent>
                 </Card>
             </motion.div>
+            
         </div>
     );
 };
 
 export default CaseStudy;
+
 
 
 
