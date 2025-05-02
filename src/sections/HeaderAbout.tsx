@@ -45,7 +45,7 @@ export default function AboutHeader() {
       <nav className="relative z-10 flex justify-between items-center px-8 py-6">
         <div className="flex items-center space-x-2">
           <div className="bg-white p-2 rounded-full" />
-          <span className="text-lg font-semibold">PRIMESCALAR</span>
+          <span className="text-lg font-semibold">PRIMESCALER</span>
         </div>
 
         <div className="hidden md:flex space-x-8 text-sm font-medium">
