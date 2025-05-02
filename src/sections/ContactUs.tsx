@@ -8,6 +8,7 @@ export default function ContactUs() {
   const [form, setForm] = useState({
     name: '',
     email: '',
+    phone:'',
     website: '',
     message: '',
   });
@@ -43,7 +44,7 @@ export default function ContactUs() {
         </div>
 
         {/* Heading */}
-        <h1 className="text-5xl font-bold mb-4">Let&#39;s Talk!</h1>
+        <h1 className="text-5xl font-bold mb-4">Let's Talk!</h1>
         <p className="text-gray-400 mb-8">
           Send us a message and we will get back to you within 24 hours to arrange a call!
         </p>
@@ -63,6 +64,7 @@ export default function ContactUs() {
           </div>
           <Button> ➔ </Button>
         </div>
+
 
         {/* Call Field */}
         <div className="bg-gray-900 p-4 rounded-lg flex items-center justify-between mt-4">
@@ -126,7 +128,16 @@ export default function ContactUs() {
           />
         </div>
         <input
-          type="url"
+            type="phone"
+            name="phone"
+            placeholder="Enter Your Phone Number"
+            value={form.phone}
+            onChange={handleChange}
+            className="bg-black p-4 rounded-lg w-full"
+            required
+          />
+        <input
+          type="text"
           name="website"
           placeholder="Business Type"
           value={form.website}
@@ -152,3 +163,4 @@ export default function ContactUs() {
     </section>
   );
 }
+
