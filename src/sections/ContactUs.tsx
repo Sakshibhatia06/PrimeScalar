@@ -8,7 +8,7 @@ export default function ContactUs() {
   const [form, setForm] = useState({
     name: '',
     email: '',
-    phone:'',
+    phone: '',
     website: '',
     message: '',
   });
@@ -23,7 +23,7 @@ export default function ContactUs() {
   };
 
   return (
-    <section className="min-h-screen bg-black text-white p-28 flex flex-col md:flex-row gap-8 relative">
+    <section className="min-h-screen bg-black text-white p-8 md:p-28 flex flex-col md:flex-row gap-8 relative">
       
       {/* Left Section */}
       <motion.div
@@ -44,13 +44,13 @@ export default function ContactUs() {
         </div>
 
         {/* Heading */}
-        <h1 className="text-5xl font-bold mb-4">Lets Talk!</h1>
-        <p className="text-gray-400 mb-8">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Lets Talk!</h1>
+        <p className="text-gray-400 mb-8 text-sm md:text-base">
           Send us a message and we will get back to you within 24 hours to arrange a call!
         </p>
 
         {/* Email Field */}
-        <div className="bg-gray-900 p-4 rounded-lg flex items-center justify-between">
+        <div className="bg-gray-900 p-4 rounded-lg flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
             <div className="bg-black p-2 rounded-full">
               <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -65,9 +65,8 @@ export default function ContactUs() {
           <Button> ➔ </Button>
         </div>
 
-
         {/* Call Field */}
-        <div className="bg-gray-900 p-4 rounded-lg flex items-center justify-between mt-4">
+        <div className="bg-gray-900 p-4 rounded-lg flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
             <div className="bg-black p-2 rounded-full">
               <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -83,7 +82,7 @@ export default function ContactUs() {
         </div>
 
         {/* Location Field */}
-        <div className="bg-gray-900 p-4 rounded-lg flex items-center justify-between mt-4">
+        <div className="bg-gray-900 p-4 rounded-lg flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="bg-black p-2 rounded-full">
               <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -99,7 +98,7 @@ export default function ContactUs() {
         </div>
       </motion.div>
 
-      {/* Right Section */}
+      {/* Right Section (Form) */}
       <motion.form
         onSubmit={handleSubmit}
         className="flex-1 bg-gray-900 p-8 rounded-lg flex flex-col gap-4"
@@ -107,7 +106,7 @@ export default function ContactUs() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row gap-4">
           <input
             type="text"
             name="name"
@@ -128,14 +127,14 @@ export default function ContactUs() {
           />
         </div>
         <input
-            type="phone"
-            name="phone"
-            placeholder="Enter Your Phone Number"
-            value={form.phone}
-            onChange={handleChange}
-            className="bg-black p-4 rounded-lg w-full"
-            required
-          />
+          type="phone"
+          name="phone"
+          placeholder="Enter Your Phone Number"
+          value={form.phone}
+          onChange={handleChange}
+          className="bg-black p-4 rounded-lg w-full"
+          required
+        />
         <input
           type="text"
           name="website"
@@ -151,7 +150,10 @@ export default function ContactUs() {
           onChange={handleChange}
           className="bg-black p-4 rounded-lg min-h-[150px]"
         ></textarea>
-        <button type="submit" className="relative py-2 px-3 rounded-lg font-medium text-sm bg-gradient-to-b from-[#190d2e] to-[#4a208a] shadow-[0px_0px_12px_#8c45ff]">
+        <button
+          type="submit"
+          className="relative py-2 px-3 rounded-lg font-medium text-sm bg-gradient-to-b from-[#190d2e] to-[#4a208a] shadow-[0px_0px_12px_#8c45ff]"
+        >
           <div className="absolute inset-0">
             <div className="rounded-lg border border-white/20 absolute inset-0 [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
             <div className="rounded-lg border absolute inset-0 border-white/40 [mask-image:linear-gradient(to_top,black,transparent)]"></div>
