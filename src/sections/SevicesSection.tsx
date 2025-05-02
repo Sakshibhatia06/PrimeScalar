@@ -24,7 +24,7 @@ export default function ServicesSection() {
             </div>
 
             {/* Services Grid */}
-            <div className="max-w-6xl mx-auto p-10 grid md:grid-cols-2 gap-10 md:gap-10 items-start">
+             <div className="max-w-6xl mx-auto mt-24 grid md:grid-cols-2 gap-10 md:gap-10 items-start">
 
                 {/* LEFT Content */}
                 <motion.div
@@ -36,10 +36,10 @@ export default function ServicesSection() {
                         <span className="text-purple-500 mr-2">•</span> Qualified Lead Generation
                     </h2>
                     <p className="text-gray-400 mb-8 text-base md:text-lg">
-                        We specialize in creating highly focused, paid advertising campaigns that target your ideal customers with precision.
+                    We specialize in creating highly focused, paid advertising campaigns that target your ideal customers with precision.
                     </p>
 
-                    <h3 className="text-2xl font-semibold mb-4">What&#39;s included?</h3>
+                    <h3 className="text-2xl font-semibold mb-4">Whats included?</h3>
                     <ul className="space-y-3 text-base md:text-lg">
                         {[
                             "Targeted Paid Ads: Run highly focused ad campaigns designed to attract the right audience.",
@@ -74,9 +74,9 @@ export default function ServicesSection() {
 
                     {/* Investment Section */}
                     <div className="bg-gray-900 p-6 md:p-8 text-center">
-                        <h4 className="text-2xl md:text-3xl font-bold mb-4">Qualified Lead Generation</h4>
+                        <h4 className="text-2xl md:text-3xl font-bold mb-4"> Qualified Lead Generation</h4>
                         <p className="text-gray-400 mb-6 text-base md:text-lg">
-                            We create precise, high-converting paid ad campaigns with A/B testing, funnel optimization, and detailed ROI tracking.
+                        We create precise, high-converting paid ad campaigns with A/B testing, funnel optimization, and detailed ROI tracking.
                         </p>
                         <Button>
                             Book a Call
