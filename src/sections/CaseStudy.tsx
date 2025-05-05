@@ -177,7 +177,7 @@ const CaseStudy = () => {
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8 }}
-                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                className="grid grid-cols-1 md:grid-cols-3 gap-8 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -321,7 +321,7 @@ const CaseStudy = () => {
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8 }}
-                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                className="grid grid-cols-1 md:grid-cols-3 gap-8 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -423,7 +423,7 @@ const CaseStudy = () => {
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8 }}
-                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                className="grid grid-cols-1 md:grid-cols-3 gap-8 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -570,7 +570,7 @@ const CaseStudy = () => {
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8 }}
-                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                className="grid grid-cols-1 md:grid-cols-3 gap-8 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -668,7 +668,7 @@ const CaseStudy = () => {
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8 }}
-                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                className="grid grid-cols-1 md:grid-cols-3 gap-8 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
@@ -820,7 +820,7 @@ const CaseStudy = () => {
                                 initial={{ opacity: 0, y: 50 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8 }}
-                                className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-gray-200">
+                                className="grid grid-cols-1 md:grid-cols-3 gap-8 text-lg text-gray-200">
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
