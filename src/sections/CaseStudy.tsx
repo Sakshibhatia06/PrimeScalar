@@ -57,8 +57,8 @@ const CaseStudy = () => {
     const [current2, setCurrent2] = useState(0);
 
     const slides3 = [
-        { image: RealEstate1, label: "BEFORE RESULT" },
-        { image: RealEstate, label: "AFTER RESULT" },
+        { image: RealEstate, label: "BEFORE RESULT" },
+        { image: RealEstate1, label: "AFTER RESULT" },
     ];
 
     const [current3, setCurrent3] = useState(0);
@@ -167,9 +167,9 @@ const CaseStudy = () => {
                                 transition={{ duration: 0.8 }}
                                 className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Medical & Healthcare</span>
-                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
-                                <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
-                                <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
+                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">600+ Conversions</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">$152K+ in Value</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold"> 2X ROAS Growth</span>
                             </motion.div>
 
                             {/* 3 Column Table */}
@@ -181,19 +181,30 @@ const CaseStudy = () => {
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Performance ad creative.</li>
+                                        <li>ROAS stuck at 3.26x</li>
+                                        <li>High cost per conversion at $69.74</li>
+                                        <li>Conversions limited to 348.98</li>
+                                        <li>Nearly $24K+ ad spend with minimal scaling</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Expectations</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>New improved Meta campaign</li>
+                                        <li> Lower cost per conversion</li>
+                                        <li> Higher number of qualified leads</li>
+                                        <li>Improved ROI without
+                                        increasing ad spend</li>
+                                        <li>Smarter campaign optimization</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Primescalar Results</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Weekly iterations on performance</li>
+                                        <li>ROAS boosted to 6.10x</li>
+                                        <li>Cost per conversion dropped to $41.69</li>
+                                        <li>Conversions jumped to 600+</li>
+                                        <li>Conversion value increased to
+                                        $152K+ with similar budget</li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -279,7 +290,7 @@ const CaseStudy = () => {
                                 }}
                                 className="text-4xl font-bold mb-5 flex flex-wrap"
                             >
-                                {"318K/MONTH TO 804K/MONTH IN 1 MONTHS.".split("").map((char, index) => (
+                                {"From Wasted Spend to Winning Campaigns: See the Real Numbers That Made the Difference".split("").map((char, index) => (
                                     <motion.span
                                         key={index}
                                         variants={{
@@ -287,7 +298,7 @@ const CaseStudy = () => {
                                             visible: { opacity: 1, y: 0 },
                                         }}
                                         className={
-                                            char === " " ? "w-2" : char.match(/[804K MONTH]+/g) ? "text-purple-400" : ""
+                                            char === " " ? "w-2" : char.match(/[That Made the]+/g) ? "text-purple-400" : ""
                                         }
                                     >
                                         {char}
@@ -314,19 +325,41 @@ const CaseStudy = () => {
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Performance ad creative.</li>
+                                        <li>AED 265.78 per lead</li>
+                                        <li>Only 3 conversions with AED
+                                        797 spend</li>
+                                        <li>CTR below 3%</li>
+                                        <li>Poor ad structure and weak
+                                        copy</li>
+                                        <li>No negative keywords used</li>
+                                        <li>Untargeted locations</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Expectations</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>New improved Meta campaign</li>
+                                        <li>Reduce cost per
+                                        conversion</li>
+                                        <li>Get consistent daily
+                                        leads</li>
+                                        <li>Improve click-through
+                                        rate</li>
+                                        <li>Better ad quality and
+                                        relevance</li>
+                                        <li>Improve lead quality</li>
+                                        <li> Focus on local high-intent areas                                        </li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Primescalar Results</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Weekly iterations on performance</li>
+                                        <li>AED 35.83 per lead</li>
+                                        <li>38 conversions with AED 1,361 spend</li>
+                                        <li>CTR boosted to over 8%</li>
+                                        <li>Rewritten ad copy with strong CTA and
+                                        intent match</li>
+                                        <li>Wasted spend reduced through negative keywords</li>
+                                        <li>Hyper-targeted local ads bringing real patients</li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -380,9 +413,9 @@ const CaseStudy = () => {
                                 transition={{ duration: 0.8 }}
                                 className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Real Estate</span>
-                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
-                                <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
-                                <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
+                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">144 Leads</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">26.16% Hook Rate</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">Up to 70% Lower Cost per Lead</span>
                             </motion.div>
 
                             {/* 3 Column Table */}
@@ -394,19 +427,35 @@ const CaseStudy = () => {
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Performance ad creative.</li>
+                                        <li>- High cost per lead (up to AED
+                                            435.59)</li>
+                                        <li>Low lead volume (2–17 leads)</li>
+                                        <li>Total leads capped at 144</li>
+                                        <li>Very low hook rates (0.09%
+                                            on some campaigns)</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Expectations</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>New improved Meta campaign</li>
+                                        <li>Reduce cost per lead
+                                        significantly</li>
+                                        <li>Scale lead volume without
+                                        increasing CPL</li>
+                                        <li>Improve hook rates with
+                                        better ad creatives</li>
+                                        <li>Maximize ROI from Meta
+                                        ads</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Primescalar Results</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Weekly iterations on performance</li>
+                                        <li>Generated 76 leads in a single campaign</li>
+                                        <li> Scaled from 144 to 1037+ total
+                                        leads</li>
+                                        <li>Hook rate improved to 34.15%</li>
+                                        <li>Reduced CPL by up to 70% on top performing campaigns</li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -511,9 +560,9 @@ const CaseStudy = () => {
                                 transition={{ duration: 0.8 }}
                                 className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Food & Cafes</span>
-                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
-                                <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
-                                <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
+                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">337 Website Leads</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">$2.91 CPL</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">120K+ Impressions</span>
                             </motion.div>
 
                             {/* 3 Column Table */}
@@ -525,19 +574,35 @@ const CaseStudy = () => {
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Performance ad creative.</li>
+                                        <li>Low lead flow (avg. under 35
+                                            leads per campaign)</li>
+                                        <li>High CPL up to $3.33</li>
+                                        <li> Reach capped around 5K–10K
+                                        users</li>
+                                        <li>Inconsistent campaign
+                                        performance</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Expectations</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>New improved Meta campaign</li>
+                                        <li>Consistent lead generation</li>
+                                        <li>CPL below $3</li>
+                                        <li>Stronger reach &
+                                        impressions</li>
+                                        <li>Drive footfall via targeted
+                                        local campaigns</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Primescalar Results</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Weekly iterations on performance</li>
+                                        <li>337 website leads in total</li>
+                                        <li>$2.91 CPL—within target budget </li>
+                                        <li>120,000+ impressions from just
+                                        52K reach</li>
+                                        <li>Significantly improved ad
+                                        consistency and performance </li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -572,7 +637,7 @@ const CaseStudy = () => {
                                 }}
                                 className="text-4xl font-bold mb-5 flex flex-wrap"
                             >
-                                {"318K/MONTH TO 804K/MONTH IN 1 MONTHS.".split("").map((char, index) => (
+                                {"Turning Clicks into Clients: How We Boosted Hair Clinic Leads in Just 2 Weeks".split("").map((char, index) => (
                                     <motion.span
                                         key={index}
                                         variants={{
@@ -607,19 +672,43 @@ const CaseStudy = () => {
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Performance ad creative.</li>
+                                        <li>Only 56 leads in 13 days</li>
+                                        <li>Low reach of 14,260</li>
+                                        <li>Poor impression volume
+                                        (26,188)</li>
+                                        <li>Limited ad performance due
+                                        to poor segmentation</li>
+                                        <li>No consistent growth in ad
+                                        sets</li>
+                                        <li>Missed follow-ups due to
+                                        lead quality issues</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Expectations</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>New improved Meta campaign</li>
+                                        <li>Increase lead volume
+                                        significantly</li>
+                                        <li>Improve ad visibility</li>
+                                        <li>Get ads seen by more
+                                        potential clients</li>
+                                        <li>Use better audience
+                                        targeting</li>
+                                        <li>Achieve steady
+                                        performance across ad sets</li>
+                                        <li>Improve lead intent</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Primescalar Results</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Weekly iterations on performance</li>
+                                        <li>73 leads in the next 13 days</li>
+                                        <li>Reach increased to 26,002</li>
+                                        <li>Impressions nearly doubled to 48,157</li>
+                                        <li>Audience refined for more efficient lead
+                                        generation</li>
+                                        <li>Multiple ad sets delivered strong lead volume</li>
+                                        <li>On-Facebook leads showed higher potential engagement and better conversion</li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -700,7 +789,7 @@ const CaseStudy = () => {
                                 }}
                                 className="text-4xl font-bold mb-5 flex flex-wrap"
                             >
-                                {"318K/MONTH TO 804K/MONTH IN 1 MONTHS.".split("").map((char, index) => (
+                                {"More Sales, Better ROAS: Performance-Driven Growth in Health & Beauty".split("").map((char, index) => (
                                     <motion.span
                                         key={index}
                                         variants={{
@@ -735,19 +824,43 @@ const CaseStudy = () => {
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Performance ad creative.</li>
+                                        <li>195 purchases in 15 days</li>
+                                        <li>Average ROAS of 3.72</li>
+                                        <li>Some ad sets
+                                        underperforming</li>
+                                        <li>Room for creative and
+                                        copy testing</li>
+                                        <li>Audience fatigue starting
+                                        to show</li>
+                                        <li>Limited scaling potential</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Expectations</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>New improved Meta campaign</li>
+                                        <li>Scale up purchase volume</li>
+                                        <li>Improve return on ad spend</li>
+                                        <li>Balance performance across all
+                                        ad sets</li>
+                                        <li>Enhance engagement and clickto-purchase ratio</li>
+                                        <li>Refresh targeting and expand
+                                        reach</li>
+                                        <li>Achieve sustainable growth
+                                        with high ROAS</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Primescalar Results</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Weekly iterations on performance</li>
+                                        <li>226 purchases generated</li>
+                                        <li>ROAS increased to 4.03</li>
+                                        <li>Optimized delivery with consistent
+                                        ROAS uplift</li>
+                                        <li>A/B tested creatives improved
+                                        purchase flow</li>
+                                        <li>Introduced new lookalike audiences for scale</li>
+                                        <li>Campaign scaled profitably without
+                                        sacrificing efficiency</li>
                                     </ul>
                                 </div>
                             </motion.div>
@@ -755,7 +868,8 @@ const CaseStudy = () => {
                     </CardContent>
                 </Card>
             </motion.div>
-            <motion.div initial={{ opacity: 0, y: 50 }}
+            <motion.div 
+            initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}>
                 <Card className="mb-16 text-white">
@@ -800,9 +914,9 @@ const CaseStudy = () => {
 
                              className="flex flex-wrap gap-5 mb-2">
                                 <span className="bg-purple-400 text-black px-3 py-1 rounded-full font-semibold">Niche: Emirate driving school</span>
-                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">Meta Advertising</span>
-                                <span className="border border-white px-3 py-1 rounded-full font-semibold">Performance Creative</span>
-                                <span className="border border-white px-3 py-1 rounded-full font-semibold">CMO Consulting</span>
+                                <span className="border border-purple-400 text-purple-400 px-3 py-1 rounded-full font-semibold">385 Leads</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">4.76 AED Cost Per Lead</span>
+                                <span className="border border-white px-3 py-1 rounded-full font-semibold">High-Intent Campaign Success</span>
                             </motion.div>
 
                             {/* 3 Column Table */}
@@ -810,19 +924,35 @@ const CaseStudy = () => {
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Stagnating</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Performance ad creative.</li>
+                                        <li>Low enrollment rates
+                                        despite ad spend</li>
+                                        <li>High CPL making scaling
+                                        unfeasible</li>
+                                        <li>Weak campaign targeting
+                                        led to drop-offs</li>
+                                        <li>Inefficient lead funnel</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Expectations</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>New improved Meta campaign</li>
+                                        <li>Lower the cost per lead</li>
+                                        <li>Reach more ready-to-enroll
+                                        users</li>
+                                        <li>Improve targeting to capture
+                                        serious inquiries</li>
+                                        <li>Boost overall sign-up volume</li>
                                     </ul>
                                 </div>
                                 <div>
                                     <p className="font-semibold mb-2 text-purple-400">Primescalar Results</p>
                                     <ul className="space-y-1 list-disc list-outside">
-                                        <li>Weekly iterations on performance</li>
+                                        <li>Generated 385 high-quality leads</li>
+                                        <li>Achieved a low 4.76 AED CPL </li>
+                                        <li>- Engaged ready-to-convert audience
+                                        with optimized targeting </li>
+                                        <li>Increased lead-to-enrollment ratio
+                                        with a streamlined funnel</li>
                                     </ul>
                                 </div>
                             </div>
@@ -846,8 +976,5 @@ const CaseStudy = () => {
 };
 
 export default CaseStudy;
-
-
-
 
 
